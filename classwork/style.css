@@ -1,1 +1,270 @@
 /* Your external CSS styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* */
+/*--Background----*/
+.back{
+    background-color:  #0f0f06;
+    background-image: url(m10.jpg);
+    background-size: 100%;
+    
+}
+.n1{
+    color:white;
+    font-style: italic;
+    position: sticky;
+    margin-top: -730px;
+  
+
+    
+}
+.n2{
+    color:white;
+    font-style: italic;
+    position: -webkit-sticky;
+    top:20px;
+}
+.n2 span{
+    color: crimson;
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 5px;
+
+}
+.n3{
+    color: crimson;
+    font-style: italic;
+    font-size: 35px;
+    position: -webkit-sticky;
+    top: 48px;
+    left: 65px;
+
+}
+
+/* bar1 */
+.navbar{
+    position: fixed;
+    top: 5px;
+    left: 567px;
+    font-family: 'Ubuntu', sans-serif;
+  
+  
+
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* menu */
+.navbar .menu li a{
+   color: #fff;
+   list-style: none;
+   display: inline-block;
+   font-size: 25px;
+   font-weight: 500;
+   margin-left: 25px;
+
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+/* Home */
+.home{
+    display: flex;
+    background-size: 100%;
+    width: 600px;
+    height: 100vh;
+    position: relative;
+    top: -350px;
+    left: 630px;
+    
+}
+.home-content{
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home-content{
+    top: 500px;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+
+}
+.home .home-content .t1{
+    font-size: 27px;
+    margin-left: -610px;
+    margin-top: 350px;
+
+}
+.home .home-content .t2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -610px;
+
+}
+.home .home-content .t3{
+    font-size: 40px;
+    margin: 5px 0;
+    margin-left: -610px;
+
+}
+.home .home-content .t3 span{
+    color: crimson;
+    font-weight: 500;
+}
+/*--My Image----*/
+.img {
+    top: -200px;
+    left: 500px;
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  
+  }.img img{
+    width: 105%;
+    height: auto;
+    
+  }
+  /*---Objective----*/
+  .obj{
+    color: cyan;
+    font-family: 'Ubuntu', sans-serif;
+    white-space: pre;
+    position: relative;
+    top: 500px;
+    font-size: 20px;
+    transform: rotate(-5deg);
+    background-color: crimson;
+}
+  /*---Education table----*/
+.table{
+    color: tomato;
+    font-weight: 500;
+    font-size: 27px;
+    top: 1000px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    border-collapse: collapse; 
+    
+    
+}
+  /*---p image----*/
+.p{
+    top: 70px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-10deg);
+}
+.p p{
+    width: 105%;
+    height: auto;
+
+}
+/*---SKILL----*/
+.skill{
+    top: 500px;
+    color: tomato;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 30px;
+    padding: 10px;
+}
+.skill .s2{
+    top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.skill .s3{
+    top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.skill .s4{
+    top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.skill .s5{
+    top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.skill .s6{
+    top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.skill .s7{
+    top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.skill .s2 span{
+    padding: 20px;
+    
+}
+.skill .s3 span{
+    padding: 20px;
+    
+}
+.skill .s4 span{
+    padding: 20px;
+    
+}
+.skill .s5 span{
+    padding: 20px;
+    
+}
+.skill .s6 span{
+    padding: 20px;
+    
+}
+.skill .s7 span{
+    padding: 20px;
+    
+}
+/*---FORM----*/
+.form{
+    top: 600px;
+    color: tomato;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-size: 30px;
+    padding: 10px;   
+}
+.form .span{
+    top: 650;
+    color: white;
+}
+/*---link----*/
+
