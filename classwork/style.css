@@ -267,4 +267,11 @@
     color: white;
 }
 /*---link----*/
-
+#con{
+    top: 600px;
+    color: white;
+    position: relative;
+}
+h1 {
+    color: white;
+}
