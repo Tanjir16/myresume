@@ -9,38 +9,6 @@
     background-size: 100%;
     
 }
-.n1{
-    color:white;
-    font-style: italic;
-    position: sticky;
-    margin-top: -730px;
-  
-
-    
-}
-.n2{
-    color:white;
-    font-style: italic;
-    position: -webkit-sticky;
-    top:20px;
-}
-.n2 span{
-    color: crimson;
-    font-size: 35px;
-    font-style: italic;
-    margin-top: 5px;
-
-}
-.n3{
-    color: crimson;
-    font-style: italic;
-    font-size: 35px;
-    position: -webkit-sticky;
-    top: 48px;
-    left: 65px;
-
-}
-
 /* bar1 */
 .navbar{
     position: fixed;
@@ -96,7 +64,7 @@
 .home .home-content .t1{
     font-size: 27px;
     margin-left: -610px;
-    margin-top: 350px;
+    margin-top: -75px;
 
 }
 .home .home-content .t2{
@@ -136,9 +104,8 @@
     font-family: 'Ubuntu', sans-serif;
     white-space: pre;
     position: relative;
-    top: 500px;
-    font-size: 20px;
-    transform: rotate(-5deg);
+    top: 20px;
+    font-size: 18px;
     background-color: crimson;
 }
   /*---Education table----*/
