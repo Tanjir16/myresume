@@ -1,6 +1,6 @@
 /* Your responsive CSS styles go here */
 /* responsive media query start for less than 1000px*/
-@media (max-width: 1000px){
+@media (max-width:1000px){
     .max-width{
         padding: 0 50px;
     }
@@ -22,7 +22,7 @@
 
 }
 /* responsive media query start for more than 1000px*/
-@media (min-width: 500px){
+@media (min-width:500px){
     .max-width{
         padding: 0 50px;
     }
@@ -43,4 +43,4 @@
     }
 
 }
-@media (min-width: 500px) and (max-width: 1000px){}
+@media (min-width:500px) and (max-width:1000px){}
