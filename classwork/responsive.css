@@ -43,24 +43,7 @@
     }
 
 }
-@media (max-width:1200px) {
-    .max-width{
-        padding: 0 50px;
-    }
-    .navbar .menu{
-        position: fixed;
-        height: 100vh;
-        width: 150%;
-        left: 0;
-        top: 0;
-        text-align: start;
-    }
-    .navbar .menu li{
-        
-        display: inline-block;
-    }
-    .back{
-        background: black;
-    }
+@media (max-width: 1200px) {
+    
   }
   
