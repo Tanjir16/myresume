@@ -1,28 +1,18 @@
-/* Your responsive CSS styles go here */
 /* responsive media query start for less than 1000px*/
-@media (max-width:1000px) {
+@media (min-width:1000px){
+    .back{
+        background-color:  #0f0f06;
+        background-image: url(m10.jpg);
+        background-size: 100%;
+        
+    }
     .max-width{
         padding: 0 50px;
-    }
-    .navbar .menu{
-        position: fixed;
-        height: 100vh;
-        width: 150%;
-        left: 0;
-        top: 0;
-        text-align: start;
-    }
-    .navbar .menu li{
-        
-        display: inline-block;
-    }
-    .back{
-        background: black;
     }
 
 }
 /* responsive media query start for more than 1000px*/
-@media(min-width:500px) {
+@media (max-width:500px){
     .max-width{
         padding: 0 50px;
     }
@@ -41,9 +31,194 @@
     .back{
         background: black;
     }
+    .img{
+        left: 300px;
+        top: -300px;
+    }
+    .obj{
+        color: cyan;
+        font-family: 'Ubuntu', sans-serif;
+        white-space: pre;
+        position: relative;
+        top: 20px;
+        font-size: 19px;
+        background-color: crimson;
+    }
 
 }
-@media (max-width:1000px)  {
+@media (max-width:860px) and (min-width:520px){
+    .max-width{
+        padding: 0 50px;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 150%;
+        left: 0;
+        top: 0;
+        text-align: start;
+    }
+    .navbar .menu li{
+        
+        display: inline-block;
+    }
+    .back{
+        background: black;
+    }
+    .img{
+        left: 230px;
+        top: -300px;
+    }
+    .obj{
+        color: cyan;
+        font-family: 'Ubuntu', sans-serif;
+        white-space: pre;
+        position: relative;
+        top: 20px;
+        font-size: 10px;
+        background-color: crimson;
+    }
     
-  }
-  
+
+}
+@media (max-width:520px) and (min-width:200px){
+    .max-width{
+        padding: 0 5px;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        text-align: start;
+    }
+    .navbar .menu li{
+        
+        display: inline;
+    }
+    .back{
+        background: black;
+    }
+    .img{
+        left: 160px;
+        top: -320px;
+    }
+    .obj{
+        color: cyan;
+        font-family: 'Ubuntu', sans-serif;
+        white-space: pre;
+        position: relative;
+        top: 20px;
+        font-size: 8px;
+        background-color: crimson;
+    }
+    .home .home-content .t1{
+        font-size: 20px;
+        margin-left: -610px;
+        margin-top: -75px;
+    
+    }
+    .home .home-content .t2{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: -610px;
+    
+    }
+    .home .home-content .t3{
+        font-size: 30px;
+        margin: 5px 0;
+        margin-left: -610px;
+    
+    }
+    .home-content{
+        color: #fff;
+        min-height: 200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .home .max-width{
+        margin: auto 0 auto 20px;
+    
+    }
+    .home{
+        display: flex;
+        background-size: 80%;
+        width: 600px;
+        height: 100vh;
+        position: relative;
+        top: -350px;
+        left: 630px;
+        
+    }
+    .form{
+        top: 600px;
+        color: tomato;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 15px;
+        padding: 10px;   
+    }
+    .skill{
+        top: 500px;
+        color: tomato;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 16px;
+        padding: 10px;
+    }
+    .skill .s2{
+        top: 50px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 10px;
+        padding: 10px;
+    
+    }
+    .skill .s3{
+        top: 50px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 10px;
+        padding: 10px;
+    
+    }
+    .skill .s4{
+        top: 50px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 10px;
+        padding: 10px;
+    
+    }
+    .skill .s5{
+        top: 50px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 10px;
+        padding: 10px;
+    
+    }
+    .skill .s6{
+        top: 50px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 10px;
+        padding: 10px;
+    
+    }
+    .skill .s7{
+        top: 50px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        font-size: 10px;
+        padding: 10px;
+    
+    }
+
+}
